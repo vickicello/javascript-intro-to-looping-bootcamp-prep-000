@@ -20,7 +20,12 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   function maybeTrue() {
-  Math.random() >= 0.5
+  return Math.random() >= 0.5
+}
+ 
+do {
+  console.log('doo-bee-doo-bee-doo')
+} while (maybeTrue());
 }
   do {
     array.length > 0 && maybeTrue()
