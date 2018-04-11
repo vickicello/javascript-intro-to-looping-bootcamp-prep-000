@@ -24,13 +24,11 @@ function doWhileLoop(array) {
 }
  
   do {
-    console.log('doo-bee-doo-bee-doo')
+    array = array.slice
   } 
   
-  while (maybeTrue());
-}
-  do {
-    array.length > 0 && maybeTrue()
+    while {
+      array.length > 0 && maybeTrue()
   }
 return array;
 }
