@@ -24,7 +24,7 @@ function doWhileLoop(array) {
 }
  
   do {
-    array = array.slice
+    array = array.slice(1)
   } 
   
     while {
